@@ -10,7 +10,7 @@ Hello dear developers, this is the frontend code of the assignment for the Full 
 Clone the project
 
 ```bash
-  git clone
+  git clone git@github.com:marcostimm/leaseweb-backend.git
 ```
 
 Go to the project directory
