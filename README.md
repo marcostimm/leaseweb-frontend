@@ -16,7 +16,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd leaseweb
+  cd leaseweb-frontend
 ```
 
 Install dependencies
