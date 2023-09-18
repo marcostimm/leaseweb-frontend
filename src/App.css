@@ -1,0 +1,81 @@
+#root {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222222;
+}
+
+.logo {
+  max-width: 200px;
+  padding: 0px;
+  margin: 10px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  max-width: 1280px;
+  height: 100%;
+  margin: 20px auto;
+  border: 1px solid #646cff;
+  background-color: white;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.list table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #646cff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.list table thead {
+  align-items: center;
+  padding: 30px;
+  border-bottom: 1px solid #646cff;
+  text-transform: uppercase;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: #dedede;
+  border-radius: 8px;
+}
+
+.filters label {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.filters select {
+  font-size: 18px;
+}
+
+.totalResults {
+  float: right;
+  margin-right: 20px;
+}
